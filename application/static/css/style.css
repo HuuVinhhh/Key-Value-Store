@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200vh; */
+    flex-direction: column;
+}
+
+.container {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #3a3a3a;
+    font-size: 28px;
+    margin-bottom: 30px;
+    padding-top: 20px;  /* Tăng khoảng cách với phần trên */
+}
+
+.form-group {
+    margin-bottom: 30px;  /* Tăng margin-bottom để không bị dồn vào nhau */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.form-group label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input {
+    width: 95%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.result {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+
+/* Các khung chức năng (Put, Get, Delete, Update) */
+.form-group {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;  /* Tăng khoảng cách giữa các khung */
+}
+
+.form-group h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}

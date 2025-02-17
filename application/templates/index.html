@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distributed Key-Value</title>
+    <!-- Link tới tệp CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">   
+</head>
+<body>
+
+    <div class="container">
+        <h1>Distributed Key-Value</h1>
+
+        <!-- PUT Form -->
+        <div class="form-group">
+            <h3>Put Data</h3>
+            <label for="put-key">Key</label>
+            <input type="text" id="put-key" name="key" placeholder="Enter Key">
+            <label for="put-value">Value</label>
+            <input type="text" id="put-value" name="value" placeholder="Enter Value">
+            <button class="button" onclick="handlePut()">Put</button>
+        </div>
+
+        <!-- GET Form -->
+        <div class="form-group">
+            <h3>Get Data</h3>
+            <label for="get-key">Key</label>
+            <input type="text" id="get-key" name="key" placeholder="Enter Key">
+            <button class="button" onclick="handleGet()">Get</button>
+        </div>
+
+        <!-- DELETE Form -->
+        <div class="form-group">
+            <h3>Delete Data</h3>
+            <label for="delete-key">Key</label>
+            <input type="text" id="delete-key" name="key" placeholder="Enter Key">
+            <button class="button" onclick="handleDelete()">Delete</button>
+        </div>
+
+        <!-- UPDATE Form -->
+        <div class="form-group">
+            <h3>Update Data</h3>
+            <label for="update-key">Key</label>
+            <input type="text" id="update-key" name="key" placeholder="Enter Key">
+            <label for="update-value">New Value</label>
+            <input type="text" id="update-value" name="new_value" placeholder="Enter New Value">
+            <button class="button" onclick="handleUpdate()">Update</button>
+        </div>
+
+        <!-- Message Display -->
+        <div class="message" id="message"></div>
+
+        <!-- Result Display -->
+        <div class="result" id="result"></div>
+    </div>
+
+    <!-- Link tới tệp JavaScript -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
