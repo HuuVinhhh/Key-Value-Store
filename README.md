@@ -10,7 +10,7 @@ Dự án này là một ứng dụng Key-Value Store phân tán sử dụng gRPC
 Đảm bảo bạn đã cài đặt Python 3.6 hoặc phiên bản cao hơn. Bạn có thể tải Python tại [python.org](https://www.python.org/downloads/).
 
 ###  Clone repository
-
+git clone https://github.com/HuuVinhhh/Key-Value-Store.git
 
 ###  Tạo và kích hoạt môi trường ảo
 
