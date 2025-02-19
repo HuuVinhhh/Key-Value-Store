@@ -70,7 +70,7 @@ Step 2: Client serving.
 - Để thử nghiệm các chức năng , hãy chạy ứng dụng của máy khách bằng lệnh này
 
 ```shell
-python application/app.py
+python client.py
 ```
 
 
